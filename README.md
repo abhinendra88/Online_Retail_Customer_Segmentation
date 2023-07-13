@@ -37,3 +37,10 @@ contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a 
 **Country**: Country name. The name of the country where each customer resides.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## Introduction:
+
+The world is getting digitalised day by day. The role of the internet in our life is becoming unavoidable. We are depending on the internet for various purposes like studies, work, shopping etc. The most common word we hear now a day is e-commerce. E-commerce is also known as internet commerce or electronic commerce. It is a modem business which works with the help of technology. E-commerce is the process of buying a product or selling a product using the internet in online mode. With the interests of customers changing from traditional shopping to online internet shopping,The customer can now shop for things anywhere in the world. This makes e-commerce more popular among people.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
