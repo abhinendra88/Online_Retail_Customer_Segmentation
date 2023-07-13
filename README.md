@@ -61,3 +61,19 @@ Expectation–maximization (E–M) is a powerful algorithm that comes up in a va
 2. K-means Clustering using Silhouette Score - It is used to evaluate the quality of clusters created using clustering algorithms such as K-Means in terms of how well samples are clustered with other samples that are similar to each other. The Silhouette score is calculated for each sample of different clusters. To calculate the Silhouette score for each observation/data point, the following distances need to be found for each observation belonging to all the clusters:
 Mean distance between the observation and all other data points in the same cluster. This distance can also be called a mean intra-cluster distance. The mean distance is denoted by a.
 Mean distance between the observation and all other data points of the next nearest cluster. This distance can also be called a mean nearest-cluster distance. The mean distance is denoted by b.
+
+**The Silhouette Coefficient for a sample is (b - a) / max(a,b)**
+
+The Silhouette Coefficient value ranges from -1 to 1.
+
+1: This means clusters are well apart from each other and clearly distinguished.
+
+0: This means clusters are indifferent, or we can say that the distance between clusters is not significant.
+
+-1: This means clusters are assigned in the wrong way. 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Conclusion:
+
+After implementing K-means clustering using K-Elbow & Silhouette methods, I came to the conclusion that the optimal number of clusters should be 3 because it provides the opportunity to convert modest customers into important customers unlike when K = 2.
