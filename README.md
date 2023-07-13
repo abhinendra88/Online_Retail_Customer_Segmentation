@@ -44,3 +44,20 @@ contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a 
 The world is getting digitalised day by day. The role of the internet in our life is becoming unavoidable. We are depending on the internet for various purposes like studies, work, shopping etc. The most common word we hear now a day is e-commerce. E-commerce is also known as internet commerce or electronic commerce. It is a modem business which works with the help of technology. E-commerce is the process of buying a product or selling a product using the internet in online mode. With the interests of customers changing from traditional shopping to online internet shopping,The customer can now shop for things anywhere in the world. This makes e-commerce more popular among people.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Models Used:
+
+**K-means Clustering**:
+
+The k-means algorithm searches for a pre-determined number of clusters within an unlabeled multidimensional dataset. It accomplishes this using a simple conception of what the optimal clustering looks like:
+* The "cluster centres" is the arithmetic mean of all the points belonging to the cluster.
+* The "cluster centres" is the arithmetic mean of all the points belonging to the cluster.
+
+Those two assumptions are the basis of the k-means model.
+Expectation–maximization (E–M) is a powerful algorithm that comes up in a variety of contexts within data science. k-means is a particularly simple and easy-to-understand application of the algorithm
+
+1. K-means Clustering using K-Elbow - To determine the optimal number of clusters, we have to select the value of k at the “elbow” ie the point after which the inertia starts decreasing in a linear fashion. Inertia Meaning: It is calculated by measuring the distance between each data point and its centroid, squaring this distance, and summing these squares across one cluster. 
+
+2. K-means Clustering using Silhouette Score - It is used to evaluate the quality of clusters created using clustering algorithms such as K-Means in terms of how well samples are clustered with other samples that are similar to each other. The Silhouette score is calculated for each sample of different clusters. To calculate the Silhouette score for each observation/data point, the following distances need to be found for each observation belonging to all the clusters:
+Mean distance between the observation and all other data points in the same cluster. This distance can also be called a mean intra-cluster distance. The mean distance is denoted by a.
+Mean distance between the observation and all other data points of the next nearest cluster. This distance can also be called a mean nearest-cluster distance. The mean distance is denoted by b.
